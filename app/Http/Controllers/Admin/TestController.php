@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-//引入DB1111
+//引入DB
 use DB;
 //模型的引入
 use App\Member;
