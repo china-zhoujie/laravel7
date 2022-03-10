@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <table class="" border="0">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>用户名</th>
+                    <th>年龄</th>
+                    <th>邮箱</th>
+                    <th>头像</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($data as $val)
+                    <tr>
+                        <td class="">{{$val->id}}</td>
+                        <td class="">{{$val->name}}</td>
+                        <td class="">{{$val->age}}</td>
+                        <td class="">{{$val->email}}</td>
+                        <td class=""><img class="" src="{{$val->avatar}}" alt="" /></td>
+                    </tr>
+                @endforeach
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">{{$data->links()}}</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
