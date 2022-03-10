@@ -92,5 +92,6 @@ Route::get('admin_test15','Admin\TestController@test15')->name('t15');//测试�
 Route::get('admin_test16','Admin\TestController@test16')->name('t16');//测试连表查询1VN
 Route::get('admin_test17','Admin\TestController@test17')->name('t17');//测试连表查询NVN
 Route::get('admin_test18','Admin\TestController@test18')->name('t18');//
+Route::get('admin_test18','Admin\TestController@test18')->name('t18');//
 
 Route::get('view_test1','ViewController@test1');
